@@ -1,6 +1,6 @@
 package com.javacodegeeks.testng.spring;
 
-public class Foo {
+public class Foo {ddd
 	private String name;
 
 	public String getName() {
