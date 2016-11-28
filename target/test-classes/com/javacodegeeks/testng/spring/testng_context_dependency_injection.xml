@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="TestNGSpringIntegration Suite" parallel="false">
-  <test name="TestNGSpringIntegrationTest">
-    <classes>
-      <class name="com.javacodegeeks.testng.spring.SpringTestNGDependencyInjectionExample"/>
-    </classes>
-  </test>  
-</suite>
