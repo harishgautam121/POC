@@ -10,6 +10,6 @@ public class SimpleTest {
 		SampleExample example = new SampleExample();
 		example.addInteger(10);
 		example.addInteger(100);
-		Assert.assertEquals(example.getSize(), 1);
+		Assert.assertEquals(example.getSize(), 2);
 	}
 }
