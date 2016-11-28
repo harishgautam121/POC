@@ -4,7 +4,6 @@ import static org.springframework.test.context.transaction.TestTransaction.end;
 import static org.springframework.test.context.transaction.TestTransaction.flagForCommit;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNull;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -34,7 +33,7 @@ public class SpringTestNGTransactionExample extends	AbstractTransactionalTestNGS
 	@Test
 	public void tran() {
 		System.out.println("tran: verify JdbcTemplate is not null");
-		assertNull(jdbcTemplate);
+		assertNotNull(jdbcTemplate);
 	}
 
 	@BeforeTransaction
